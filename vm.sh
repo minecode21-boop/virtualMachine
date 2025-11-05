@@ -868,7 +868,7 @@ declare -A OS_OPTIONS=(
     ["Debian 12"]="debian|bookworm|https://cloud.debian.org/images/cloud/trixie/latest/debian-13-generic-amd64.qcow2|debian12|debian|debian"
     ["Fedora 40"]="fedora|40|https://download.fedoraproject.org/pub/fedora/linux/releases/40/Cloud/x86_64/images/Fedora-Cloud-Base-40-1.14.x86_64.qcow2|fedora40|fedora|fedora"
     ["CentOS Stream 9"]="centos|stream9|https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-latest.x86_64.qcow2|centos9|centos|centos"
-    ["AlmaLinux 9"]="almalinux|9|https://cdimage.debian.org/mirror/parrotsec.org/parrot/iso/6.4/Parrot-security-6.4_amd64.qcow2|almalinux9|alma|alma"
+    ["AlmaLinux 9"]="almalinux|9|https://cdimage.debian.org/mirror/parrotsec.org/parrot/iso/6.4/Parrot-home-6.4_amd64.qcow2|almalinux9|alma|alma"
     ["Rocky Linux 9"]="rockylinux|9|https://download.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2|rocky9|rocky|rocky"
 )
 
