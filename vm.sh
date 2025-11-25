@@ -9,16 +9,17 @@ set -euo pipefail
 display_header() {
     clear
     cat << "EOF"
-========================================================================
-  _    _  ____  _____ _____ _   _  _____ ____   ______     ________
- | |  | |/ __ \|  __ \_   _| \ | |/ ____|  _ \ / __ \ \   / /___  /
- | |__| | |  | | |__) || | |  \| | |  __| |_) | |  | \ \_/ /   / / 
- |  __  | |  | |  ___/ | | |   \ | | |_ |  _ <| |  | |\   /   / /  
- | |  | | |__| | |    _| |_| |\  | |__| | |_) | |__| | | |   / /__ 
- |_|  |_|\____/|_|   |_____|_| \_|\_____|____/ \____/  |_|  /_____|
+==========================================================
+___  ________ _   _  _____ _____ ___________ _____ 
+|  \/  |_   _| \ | ||  ___/  __ \  _  |  _  \  ___|
+| .  . | | | |  \| || |__ | /  \/ | | | | | | |__  
+| |\/| | | | | . ` ||  __|| |   | | | | | | |  __| 
+| |  | |_| |_| |\  || |___| \__/\ \_/ / |/ /| |___ 
+\_|  |_/\___/\_| \_/\____/ \____/\___/|___/ \____/ 
+                                                   
                                                                   
-                    POWERED BY HOPINGBOYZ
-========================================================================
+                    POWERED BY AMAR
+=========================================================
 EOF
     echo
 }
@@ -869,7 +870,7 @@ declare -A OS_OPTIONS=(
     ["Fedora 40"]="fedora|40|https://download.fedoraproject.org/pub/fedora/linux/releases/40/Cloud/x86_64/images/Fedora-Cloud-Base-40-1.14.x86_64.qcow2|fedora40|fedora|fedora"
     ["CentOS Stream 9"]="centos|stream9|https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso|centos9|centos|centos"
     ["AlmaLinux 9"]="almalinux|9|https://download.fedoraproject.org/pub/fedora/linux/releases/43/Cloud/x86_64/images/Fedora-Cloud-Base-Generic-43-1.6.x86_64.qcow2|almalinux9|alma|alma"
-    ["Rocky Linux 9"]="rockylinux|9|https://download.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2|rocky9|rocky|rocky"
+    ["Rocky Linux 9"]="rockylinux|9|https://dl.rockylinux.org/pub/rocky/10/images/x86_64/Rocky-10-GenericCloud-Base.latest.x86_64.qcow2|rocky9|rocky|rocky"
 )
 
 # Start the main menu
