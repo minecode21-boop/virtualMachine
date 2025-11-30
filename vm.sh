@@ -869,7 +869,7 @@ declare -A OS_OPTIONS=(
     ["Debian 12"]="debian|bookworm|https://cloud.debian.org/images/cloud/trixie/latest/debian-13-generic-amd64.qcow2|debian12|debian|debian"
     ["Fedora 40"]="fedora|40|https://download.fedoraproject.org/pub/fedora/linux/releases/40/Cloud/x86_64/images/Fedora-Cloud-Base-40-1.14.x86_64.qcow2|fedora40|fedora|fedora"
     ["CentOS Stream 9"]="centos|stream9|https://download.manjaro.org/i3/25.0.3/manjaro-i3-25.0.3-minimal-250609-linux612.iso|centos9|centos|centos"
-    ["AlmaLinux 9"]="almalinux|9|https://download.opensuse.org/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen-sdboot.qcow2|almalinux9|alma|alma"
+    ["AlmaLinux 9"]="almalinux|9|https://download.opensuse.org/download/factory/appliances/openSUSE-MicroOS.x86_64-16.0.0-kvm-and-xen-sdboot-Snapshot20251127.qcow2|almalinux9|alma|alma"
     ["Rocky Linux 9"]="rockylinux|9|https://dl.rockylinux.org/pub/rocky/10/images/x86_64/Rocky-10-GenericCloud-Base.latest.x86_64.qcow2|rocky9|rocky|rocky"
 )
 
